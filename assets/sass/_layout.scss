@@ -333,6 +333,18 @@ section.advantages {
       min-width: 90%;
     }
   }
+
+  @media only screen and (max-width: 500px) {
+
+    &>.card {
+      max-width: 100%;
+      min-width: 100%;
+
+      h3 {
+        flex-direction: column;
+      }
+    }
+  }
 }
 
 section.about {
@@ -488,6 +500,11 @@ footer {
     margin-top: 40px;
     padding-bottom: 46px;
     text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
